@@ -24,7 +24,7 @@ const getpeople=async(req,res,next)=>{
 router.get('/',async (req,res)=>{
     try {
         const list= await People.find();
-        res.setHeader('Access-Control-Allow-Origin', '0.0.0.0');
+        res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000/');
         res.json(list);
     } catch (error) {
         res.status(500).send({
