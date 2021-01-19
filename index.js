@@ -3,7 +3,7 @@ const express=require('express');
 const app=express();
 const mongoose=require('mongoose');
 
-const port=3005 || process.env.PORT;
+const port= process.env.PORT;
 
 mongoose.connect("mongodb+srv://allen:789@first.6gdnr.mongodb.net/people?retryWrites=true&w=majority",{ useUnifiedTopology: true },{ useNewUrlParser: true } );
 const db=mongoose.connection;
