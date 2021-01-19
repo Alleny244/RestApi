@@ -16,5 +16,5 @@ app.use(express.json());
 const peopleRouter=require('./routers/people');
 app.use('/people',peopleRouter);
 app.listen(port,()=>{
-    console.log("Server Started up and running");
+    console.log(`Server Started up and running on ${port}`);
 });
