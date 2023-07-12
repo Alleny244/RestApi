@@ -1,7 +1,7 @@
 # Rest API - Node.js
 Rest API using plain node.js. NO DEPENDENCIES.
 
-This API can display the list of persons, which can be updated or deleted1
+This API can display the list of persons, which can be updated or deleted
 * API deployed @ https://restapi-123.herokuapp.com/
 
 ## About the project
